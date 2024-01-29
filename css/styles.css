@@ -11141,7 +11141,7 @@ footer.footer .social-link:hover {
 .manual {
     margin: 10px 10px 10px 10px; /* Ajusta a margem para empilhar os manuais verticalmente */
     flex: 1;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     width: 40%; /* Define a largura de cada manual para menos de metade do container, para acomodar o espaçamento */
     padding: 50px 20px 50px 20px; /* Espaçamento interno para cada manual */
     text-align: justify; /* Justifica o texto dentro de cada manual */
@@ -11299,6 +11299,8 @@ body {
   width: 95%;
   margin: auto;
   border-collapse: collapse;
+  margin-bottom: 30px;
+  margin-top: 5px;  
 }
 
 .table th, .table td {
