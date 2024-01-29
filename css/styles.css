@@ -11313,5 +11313,5 @@ body {
 }
 
 .table tbody tr:nth-child(odd) {
-  background-color: #f2f2f2; /* Zebra striping for rows */
+  background-color: var(--bs-primary-rgb); /* Zebra striping for rows */
 }
