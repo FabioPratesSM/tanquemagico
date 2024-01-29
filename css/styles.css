@@ -11293,3 +11293,23 @@ body {
   margin-left: 0; /* Centraliza a lista horizontalmente */
   margin-right: 0; /* Centraliza a lista horizontalmente */
 }
+
+/* Custom styles for the pricing table */
+.table {
+  width: 60%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  text-align: center;
+  padding: 15px;
+}
+
+.table thead {
+  background-color: #f8f9fa; /* Light grey background for header */
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Zebra striping for rows */
+}
