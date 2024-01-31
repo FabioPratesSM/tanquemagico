@@ -10911,6 +10911,20 @@ footer.footer .social-link:hover {
   }
 }
 
+.mastheaden {
+  min-height: 310px; /* Altura fixa para desktops, ajuste conforme necessário */
+  background: url('../assets/img/bg-masthead5en.jpg') no-repeat bottom center;
+  background-size: cover;
+  transition: background 0.3s; /* Transição suave para mudanças de tamanho de fundo */
+}
+
+@media (max-width: 768px) { /* Para telas pequenas (dispositivos móveis) */
+.mastheaden {
+    background-position: top center; /* Ajusta a posição do fundo para dispositivos móveis */
+    height: auto;
+}
+}
+
 .mastheadpriv {
   min-height: 315px; /* Altura fixa para desktops, ajuste conforme necessário */
   background: url('../assets/img/politicaprivacidade.jpg') no-repeat bottom center;
@@ -11005,6 +11019,20 @@ footer.footer .social-link:hover {
     height: 80vh;
   }
   .masthead h1, .masthead .h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.mastheaden h1, .mastheaden .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .mastheaden {
+    height: 80vh;
+  }
+  .mastheaden h1, .mastheaden .h1 {
     font-size: 5.5rem;
   }
 }
