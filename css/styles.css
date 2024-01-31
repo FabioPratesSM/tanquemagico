@@ -11441,15 +11441,20 @@ body {
 
 #languageLinks a {
   text-decoration: underline;
+  text-decoration-color: white;
   color: white;
   cursor: pointer;
   padding: 5px;
 }
 
 #languageLinks a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .divider {
   color: white;
+}
+
+#languageLinks a.active {
+  font-weight: bold;
 }
