@@ -9,6 +9,6 @@ Tasks:
 – /home/tanquema/repositories/tanquemagico/ -R img $DEPLOYPATH
 – /home/tanquema/repositories/tanquemagico/ -R js $DEPLOYPATH
 - /home/tanquema/repositories/tanquemagico/index.html $DEPLOYPATH
-- /home/tanquema/repositories/tanquemagico/ politicacookies.html $DEPLOYPATH
-- /home/tanquema/repositories/tanquemagico/ politicadeprivacidade.html $DEPLOYPATH
+- /home/tanquema/repositories/tanquemagico/politicacookies.html $DEPLOYPATH
+- /home/tanquema/repositories/tanquemagico/politicadeprivacidade.html $DEPLOYPATH
 - /home/tanquema/repositories/tanquemagico/termoscondicoes.html $DEPLOYPATH
