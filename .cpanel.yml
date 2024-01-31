@@ -1,4 +1,6 @@
+---
 deployment:
   tasks:
+    - export REPOPATH=/home/tanquema/repositories/tanquemagico
     - export DEPLOYPATH=/home/tanquema/public_html/
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/politicadeprivacidade.html $DEPLOYPATH
+    - /bin/cp -Rf $REPOPATH/* $DEPLOYPATH
