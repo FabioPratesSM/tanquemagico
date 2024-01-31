@@ -11459,3 +11459,92 @@ body {
 #languageLinks a.active {
   font-weight: bold;
 }
+
+.header-parallax {
+  background-image: url('/assets/img/bg-masthead5.jpg'); /* Substitua com o caminho correto da imagem */
+  background-attachment: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-out; /* Suaviza a transição do desfoque */
+}
+
+.header-parallaxen {
+  background-image: url('/assets/img/bg-masthead5en.jpg'); /* Substitua com o caminho correto da imagem */
+  background-attachment: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-out; /* Suaviza a transição do desfoque */
+}
+
+.header-parallaxpoliticacookies {
+  background-image: url('/assets/img/politicacookies.jpg'); /* Substitua com o caminho correto da imagem */
+  background-attachment: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-out; /* Suaviza a transição do desfoque */
+}
+
+.header-parallaxpoliticacookiesen {
+  background-image: url('/assets/img/cookiespolicy.jpg'); /* Substitua com o caminho correto da imagem */
+  background-attachment: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-out; /* Suaviza a transição do desfoque */
+}
+
+.header-parallaxpoliticapriv { 
+  background-image: url('/assets/img/politicaprivacidade.jpg'); /* Substitua com o caminho correto da imagem */
+  background-attachment: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-out; /* Suaviza a transição do desfoque */
+}
+
+.header-parallaxpoliticapriven { 
+  background-image: url('/assets/img/privacypolicy.jpg'); /* Substitua com o caminho correto da imagem */
+  background-attachment: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-out; /* Suaviza a transição do desfoque */
+}
+
+.header-parallaxtermosecondicoes { 
+  background-image: url('/assets/img/termoscondicoes.jpg'); /* Substitua com o caminho correto da imagem */
+  background-attachment: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-out; /* Suaviza a transição do desfoque */
+}
+
+.header-parallaxtermsandconditions { 
+  background-image: url('/assets/img/termsandconditions.jpg'); /* Substitua com o caminho correto da imagem */
+  background-attachment: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-out; /* Suaviza a transição do desfoque */
+}
+
