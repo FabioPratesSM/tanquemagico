@@ -1,4 +1,5 @@
-##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######—Deployment:
+##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######
+—deployment:
 Tasks:
 – export DEPLOYPATH=/home/tanquema/public_html/
 – /bin/cp -R .vscode $DEPLOYPATH
@@ -8,3 +9,6 @@ Tasks:
 – /bin/cp -R img $DEPLOYPATH
 – /bin/cp -R js $DEPLOYPATH
 /bin/cp index.html $DEPLOYPATH
+/bin/cp politicacookies.html $DEPLOYPATH
+/bin/cp politicadeprivacidade.html $DEPLOYPATH
+/bin/cp termoscondicoes.html $DEPLOYPATH
