@@ -11441,6 +11441,7 @@ body {
 
 #languageLinks a {
   text-decoration: underline;
+  text-underline-offset: 5px; /* Move o sublinhado 1px para baixo */
   text-decoration-color: white;
   color: white;
   cursor: pointer;
