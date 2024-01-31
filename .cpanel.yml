@@ -1,5 +1,4 @@
----
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tanquema/public_html/
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/termoscondicoes.html $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/politicacookies.html $DEPLOYPATH
