@@ -19,8 +19,16 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+        <script>
+            window.addEventListener('scroll', function() {
+                var scrollPosition = window.pageYOffset;
+                var blurValue = Math.min(5 * (scrollPosition / 100), 5); // Ajuste o valor máximo de desfoque conforme necessário
+                document.querySelector('.header-parallax').style.filter = `blur(${blurValue}px)`;
+            });
+        </script>
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
+            <div class="header-parallax"></div>
             <div id="languageLinks">
                 <a href="index.html" class="active">PT</a> <span class="divider">/</span> <a href="index_en.html">ENG</a>
             </div>                                
