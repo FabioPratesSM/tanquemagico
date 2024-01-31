@@ -11,6 +11,8 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+       <!-- Translator-->
+       <script src="js/translator.js"></script>
         <!-- Simple line icons-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -21,6 +23,10 @@
     <body id="page-top">
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
+            <select id="languageSelect" onchange="changeLanguage(this)">
+                <option value="index_pt.html">Português</option>
+                <option value="index_en.html">English</option>
+            </select>
             <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S4T2HSV6EE"></script>
 <script>
@@ -36,10 +42,9 @@
             <div class="container px-4 px-lg-5 text-center text-black">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2>Quem somos?</h2>
+                        <h2>About us?</h2>
                         <p class="lead mb-5">
-                         No "Tanque Mágico", colocamos as melhores instalações e máquinas de última geração nas tuas mãos para que te tornes o/a mestre da limpeza. 
-                         Com instalações modernas e tecnologia de ponta, criamos o cenário perfeito para uma lavagem, secagem, e caso pretendas, engomadoria.
+                            In "Magic Tank", we put the best facilities and state-of-the-art machines in your hands so that you become the master of cleaning. With modern facilities and cutting-edge technology, we create the perfect setting for washing, drying, and if you wish, ironing.
                         </p>
                     </div>
                 </div>
@@ -49,86 +54,86 @@
         <section class="content-section bg-primary text-white text-center" id="services">
             <div class="container px-4 px-lg-5">
                 <div class=>
-                    <h3 class="text-secondary mb-0">Serviços</h3>
-                    <h2 class="mb-5">O que temos para ti</h2>
+                    <h3 class="text-secondary mb-0">Services</h3>
+                    <h2 class="mb-5">What do we offer</h2>
                 </div>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/img/washing-machine.png" width="60px"></span>
-                        <h4><strong>Lavagem</strong></h4>
-                        <p class="text-faded mb-0">Renova o teu estilo, confia na nossa lavagem.</p>
+                        <h4><strong>Washing</strong></h4>
+                        <p class="text-faded mb-0">Renew your style, trust in our washing.</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/img/tumble-dry.png" width="60px"></span>
-                        <h4><strong>Secagem</strong></h4>
-                        <p class="text-faded mb-0">Seca com excelência, sente o conforto em cada fibra.</p>
+                        <h4><strong>Drying</strong></h4>
+                        <p class="text-faded mb-0">Dry with excellence, feel the comfort in every fiber.</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/img/iron.png" width="60px"></span>
-                        <h4><strong>Engomadoria</strong></h4>
+                        <h4><strong>Ironing</strong></h4>
                         <p class="text-faded mb-0">
-                            Transformamos cada dobra numa expressão de perfeição.
+                            We transform every fold into an expression of perfection.
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/img/question.png" width="60"></span>
-                        <h4><strong>Questões?</strong></h4>
-                        <p class="text-faded mb-0">A tua comodidade é a nossa prioridade.</p>
+                        <h4><strong>Questions?</strong></h4>
+                        <p class="text-faded mb-0">Your comfort is our priority.</p>
                     </div>
                 </div>
             </div>
         </section>
             <!-- FAQ-->
             <div class="title-container mx-auto">
-                <h1>Instruções de Utilização</h1> <!-- Altere para o título desejado -->
+                <h1>Usage Instructions</h1> <!-- Altere para o título desejado -->
             </div>
             <div class="container-howto content-section mx-auto">
                 <!-- Conteúdo do container aqui... -->
                 <div class="container-howto container px-4 px-lg-5 text-center text-black">
                     <div class="row">
                         <div class="col-12 col-md-6 manual">
-                            <h2>Para Lavar:</h2>
-                            <p>1. Escolhe a máquina de lavar adequada (8kg, 12kg ou 20kg) e coloca a tua roupa.</p>
-                            <p>2. Efetua o pagamento na central e seleciona o número da tua máquina de lavar.</p>
-                            <p>3. Escolhe a temperatura da lavagem na máquina de lavar premindo as respetivas setas.</p>
-                            <p>4. Para iniciar o programa de lavagem prime o respetivo botão "Start".</p>
+                            <h2>For Washing:</h2>
+                            <p>1. Choose the appropriate washing machine (8kg, 12kg, or 20kg) and place your clothes inside.</p>
+                            <p>2. Make the payment at the central unit and select the number of your washing machine.</p>
+                            <p>3. Choose the washing temperature on the washing machine by pressing the respective arrows.</p>
+                            <p>4. To start the washing program, press the "Start" button.</p>
                             <!-- Adicione mais conteúdo conforme necessário -->
                         </div>
                         <div class="col-12 col-md-6 manual">
-                            <h2>Para Secar:</h2>
-                            <p>1. Escolhe uma das máquinas de secar e coloca a tua roupa.</p>
-                            <p>2. Efetua o pagamento na central e seleciona o número da tua máquina de secar.</p>
-                            <p>3. Escolhe uma das temperaturas de secagem na máquina de secar.</p>
-                            <p>4. Para iniciar o programa de secagem prime o respetivo botão "Start".</p>
+                            <h2>For Drying:</h2>
+                            <p>1. Choose one of the dryers and place your clothes inside.</p>
+                            <p>2. Make the payment at the central unit and select the number of your dryer.</p>
+                            <p>3. Choose one of the drying temperatures on the dryer.</p>
+                            <p>4. To start the drying program, press the "Start" button.</p>
                             <!-- Adicione mais conteúdo conforme necessário -->
                         </div>
-                        <h2 class="text-center my-4">Tabela de Preços</h2>
+                        <h2 class="text-center my-4">Price Table</h2>
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th scope="col">Máquina</th>
-                                    <th scope="col">Preço</th>
+                                    <th scope="col">Machine</th>
+                                    <th scope="col">Price</th>
                                     <th scope="col">Cartão Cliente</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>(Nº5) Lavar 8Kg</td>
+                                    <td>(Nº5) Wash 8Kg</td>
                                     <td>€5,50</td>
                                     <td>€4,40</td>
                                 </tr>
                                 <tr>
-                                    <td>(Nº6) Lavar 12Kg</td>
+                                    <td>(Nº6) Wash 12Kg</td>
                                     <td>€8,00</td>
                                     <td>€6,90</td>
                                 </tr>
                                 <tr>
-                                    <td>(Nº3) Lavar 20Kg</td>
+                                    <td>(Nº3) Wash 20Kg</td>
                                     <td>€12,00</td>
                                     <td>€10,80</td>
                                 </tr>
                                 <tr>
-                                    <td>(Nº1, 2 e 9) Secar 11 Minutos</td>
+                                    <td>(Nº1, 2 e 9) Dry 11 Minutes</td>
                                     <td>€1,50</td>
                                     <td>€1,30</td>
                                 </tr>
@@ -147,29 +152,28 @@
                     <div class="row gx-4 gx-lg-5">
                         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                             <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/img/save-money.png" width="60px"></span>
-                            <h4><strong>Poupa dinheiro</strong></h4>
-                            <p class="text-faded mb-0">Sem surpresas desagradáveis. Os nossos preços são transparentes, acessíveis e sem taxas escondidas. 
-                                Saberás exatamente quanto vai custar antes de começar o processo.</p>
+                            <h4><strong>Save Money</strong></h4>
+                            <p class="text-faded mb-0">No unpleasant surprises. Our prices are transparent, affordable, and free of hidden fees. You will know exactly how much it will cost before starting the process.</p>
                         </div>
                         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                             <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/img/deadline.png" width="60px"></span>
-                            <h4><strong>Rápido e Eficiente</strong></h4>
-                            <p class="text-faded mb-0">Com ciclos de lavagem e secagem mais rápidos, economizamos o teu tempo precioso.
-                                Garantimos uma lavagem eficiente que deixa as tuas roupas limpas e prontas para usar em pouco tempo.</p>
+                            <h4><strong>Fast and Efficient</strong></h4>
+                            <p class="text-faded mb-0">With faster washing and drying cycles, we save your precious time.
+                                We guarantee an efficient wash that leaves your clothes clean and ready to wear in no time.</p>
                         </div>
                         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                             <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/img/eco-friendly.png" width="60px"></span>
-                            <h4><strong>Sustentabilidade</strong></h4>
+                            <h4><strong>Sustainability</strong></h4>
                             <p class="text-faded mb-0">
-                                Comprometemo-nos com práticas sustentáveis. 
-                                Desde o uso eficiente de água e energia até à promoção de detergentes ecológicos, esforçamo-nos para minimizar o nosso impacto ambiental.
+                                We are committed to sustainable practices. 
+                                From efficient use of water and energy to promoting eco-friendly detergents, we strive to minimize our environmental impact.
                             </p>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/img/care.png" width="60"></span>
-                            <h4><strong>Limpo e Seguro</strong></h4>
-                            <p class="text-faded mb-0">Mantemos as nossas instalações impecavelmente limpas e seguras para garantir uma experiência agradável a cada visita. 
-                                A nossa prioridade é oferecer um ambiente confortável e higiénico para os nossos clientes.</p>
+                            <h4><strong>Clean and Safe</strong></h4>
+                            <p class="text-faded mb-0">We keep our facilities impeccably clean and safe to ensure a pleasant experience on every visit. 
+                                Our priority is to provide a comfortable and hygienic environment for our customers.</p>
                         </div>
                     </div>
                 </div>
@@ -177,8 +181,8 @@
                     <!-- Fotos-->
         <section>
         <div class="content-section container px-4 px-lg-5 text-center" id="fotos">
-                    <h3 class="text-secondary mb-0">Fotos</h3>
-                    <h2 class="mb-0 text-black">Para que nunca te esqueças</h2>
+                    <h3 class="text-secondary mb-0">Photos</h3>
+                    <h2 class="mb-0 text-black">So you will never forget</h2>
                 </div>
                     <div id="meuCarrossel" class="carousel slide" data-ride="carousel">
                         <!-- Indicadores -->
@@ -224,17 +228,17 @@
                 </section>
         <!-- About-->
         <div class="opening-hours-container">
-            <div class="hours-header">Horário de Funcionamento</div>
+            <div class="hours-header">Opening Hours</div>
             <div class="hours-details">
-                <span class="days">Segunda a Domingo</span>
+                <span class="days">Monday to Sunday</span>
                 <span class="time">7h - *00h</span>
-                <span class="days">* as portas fecham pelas 00h, portanto, terás que iniciar o processo cerca de 30 minutos antes </span>
+                <span class="days">* the doors close at 00h, so you will need to start the process about 30 minutes before.</span>
             </div>
         </div>
               <!-- Map-->
         <div class="map" id="contact">
             <h3 class="mb-4"></h3>
-                <h3 class="content-section-heading text-center text-secondary">Localização</h3>
+                <h3 class="content-section-heading text-center text-secondary">Location</h3>
                 <h3 class="mb-4"></h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12456.660868452507!2d-9.3491916!3d38.691049!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec96237c3fbaf%3A0x6bdd8e5749440e40!2sTanque%20M%C3%A1gico%20Self-Service%20Laundry!5e0!3m2!1sen!2spt!4v1705007960237!5m2!1sen!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <br />
@@ -256,12 +260,12 @@
                     </li>
                 </ul>
                 <p class="text-muted text-center mb-1">Copyright &copy; Tanque Mágico, 2024</p>
-                <p class="text-muted text-center small mb-3">Lavandaria Tanque Mágico - Av. Gago Coutinho 6, 2775-197 Parede, Portugal</p>
+                <p class="text-muted text-center small mb-3">Tanque Mágico Laundry - Av. Gago Coutinho 6, 2775-197 Parede, Portugal</p>
             </div>
             <div id="footer-content">
-                <a href="politicadeprivacidade.html">Política de Privacidade</a>
-                <a href="termoscondicoes.html">Termos e Condições</a>
-                <a href="politicacookies.html">Política de Cookies</a>
+                <a href="politicadeprivacidade_en.html">Privacy Policy</a>
+                <a href="termoscondicoes_en.html">Terms and Conditions</a>
+                <a href="politicacookies_en.html">Cookies Policy</a>
             </div>
         </footer>
         <!-- Bootstrap core JS-->

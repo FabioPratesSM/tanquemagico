@@ -11315,3 +11315,15 @@ body {
 .table tbody tr:nth-child(odd) {
   background-color: var(--bs-primary-rgb); /* Zebra striping for rows */
 }
+
+.header {
+  position: relative;
+  /* Other styling for your header */
+}
+
+#languageSelect {
+  position: absolute;
+  top: 10px; /* Adjust as necessary */
+  right: 10px; /* Adjust as necessary */
+  /* Additional styling for the dropdown */
+}
