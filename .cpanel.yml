@@ -1,14 +1,14 @@
-##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######
+---
 deployment:
-Tasks:
-– export DEPLOYPATH=/home/tanquema/public_html/
-– /home/tanquema/repositories/tanquemagico/ -R .vscode $DEPLOYPATH
-– /home/tanquema/repositories/tanquemagico/ -R assets $DEPLOYPATH
-– /home/tanquema/repositories/tanquemagico/ -R css $DEPLOYPATH
-– /home/tanquema/repositories/tanquemagico/ -R fonts $DEPLOYPATH
-– /home/tanquema/repositories/tanquemagico/ -R img $DEPLOYPATH
-– /home/tanquema/repositories/tanquemagico/ -R js $DEPLOYPATH
-- /home/tanquema/repositories/tanquemagico/index.html $DEPLOYPATH
-- /home/tanquema/repositories/tanquemagico/politicacookies.html $DEPLOYPATH
-- /home/tanquema/repositories/tanquemagico/politicadeprivacidade.html $DEPLOYPATH
-- /home/tanquema/repositories/tanquemagico/termoscondicoes.html $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/tanquema/public_html/
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/.vscode $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/assets $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/css $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/fonts $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/img $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/js $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/index.html $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/politicacookies.html $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/politicadeprivacidade.html $DEPLOYPATH
+    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/termoscondicoes.html $DEPLOYPATH
