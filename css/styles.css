@@ -11439,3 +11439,11 @@ body {
   right: 10px; /* Adjust as necessary */
   /* Additional styling for the dropdown */
 }
+
+@media (max-width: 600px) {
+  #languageSelect {
+      top: 5px;
+      right: 5px;
+      /* other adjustments for smaller screens */
+  }
+}
