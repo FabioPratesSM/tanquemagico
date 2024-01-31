@@ -11433,9 +11433,24 @@ body {
   /* Other styling for your header */
 }
 
-#languageSelect {
+#languageButtons {
   position: absolute;
-  top: 10px; /* Adjust as necessary */
-  right: 10px; /* Adjust as necessary */
-  /* Additional styling for the dropdown */
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+#languageButtons button {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e5bd8d;
+  color: white;
+  cursor: pointer;
+  position: relative; /* This makes sure the button respects the container's position */
+}
+
+#languageButtons button:hover {
+  background-color: #45a049;
 }
