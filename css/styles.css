@@ -10953,6 +10953,48 @@ footer.footer .social-link:hover {
 }
 }
 
+.mastheadprivacyen {
+  min-height: 320px; /* Altura fixa para desktops, ajuste conforme necessário */
+  background: url('../assets/img/privacypolicy.jpg') no-repeat bottom center;
+  background-size: cover;
+  transition: background 0.3s; /* Transição suave para mudanças de tamanho de fundo */
+}
+
+@media (max-width: 768px) { /* Para telas pequenas (dispositivos móveis) */
+.mastheadprivacyen {
+    background-position: top center; /* Ajusta a posição do fundo para dispositivos móveis */
+    height: auto;
+}
+}
+
+.mastheadcookiesen {
+  min-height: 320px; /* Altura fixa para desktops, ajuste conforme necessário */
+  background: url('../assets/img/cookiespolicy.jpg') no-repeat bottom center;
+  background-size: cover;
+  transition: background 0.3s; /* Transição suave para mudanças de tamanho de fundo */
+}
+
+@media (max-width: 768px) { /* Para telas pequenas (dispositivos móveis) */
+.mastheadcookiesen {
+    background-position: top center; /* Ajusta a posição do fundo para dispositivos móveis */
+    height: auto;
+}
+}
+
+.mastheadtermsandconditionsen {
+  min-height: 320px; /* Altura fixa para desktops, ajuste conforme necessário */
+  background: url('../assets/img/termsandconditions.jpg') no-repeat bottom center;
+  background-size: cover;
+  transition: background 0.3s; /* Transição suave para mudanças de tamanho de fundo */
+}
+
+@media (max-width: 768px) { /* Para telas pequenas (dispositivos móveis) */
+.mastheadtermsandconditionsen {
+    background-position: top center; /* Ajusta a posição do fundo para dispositivos móveis */
+    height: auto;
+}
+}
+
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
   margin: 0;
@@ -11005,6 +11047,48 @@ footer.footer .social-link:hover {
     height: 80vh;
   }
   .mastheadtcookies h1, .mastheadcookies .h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.mastheadprivacyen h1, .mastheadprivacyen .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .mastheadprivacyen {
+    height: 80vh;
+  }
+  .mastheadprivacyen h1, .mastheadprivacyen .h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.mastheadcookiesen h1, .mastheadcookiesen .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .mastheadcookiesen {
+    height: 80vh;
+  }
+  .mastheadcookiesen h1, .mastheadcookiesen .h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.mastheadtermsandconditionsen h1, .mastheadtermsandconditionsen .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .mastheadtermsandconditionsen {
+    height: 80vh;
+  }
+  .mastheadtermsandconditionsen h1, .mastheadtermsandconditionsen .h1 {
     font-size: 5.5rem;
   }
 }
