@@ -1,3 +1,4 @@
 function changeLanguage(selectObj) {
-    window.location.href = selectObj.value;
+    var selectedLanguagePage = selectObj.value;
+    window.location.href = selectedLanguagePage;
 }
