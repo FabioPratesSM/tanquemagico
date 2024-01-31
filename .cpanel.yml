@@ -2,13 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tanquema/public_html/
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/.vscode $DEPLOYPATH
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/assets $DEPLOYPATH
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/css $DEPLOYPATH
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/fonts $DEPLOYPATH
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/img $DEPLOYPATH
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/js $DEPLOYPATH
     - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/index.html $DEPLOYPATH
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/politicacookies.html $DEPLOYPATH
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/politicadeprivacidade.html $DEPLOYPATH
-    - /bin/cp -Rf /home/tanquema/repositories/tanquemagico/termoscondicoes.html $DEPLOYPATH
