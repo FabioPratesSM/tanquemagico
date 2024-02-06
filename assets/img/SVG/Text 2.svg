@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: ModernSansLight, 'Modern Sans';
+        font-size: 57.8px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #f0f8fb;
+      }
+
+      .cls-2 {
+        font-family: ShreeDev0714, 'Shree Devanagari 714';
+        font-size: 36.17px;
+      }
+    </style>
+  </defs>
+  <g id="all_the_freshness_in_your_hands" data-name="all the freshness, in your hands">
+    <text id="all_the_freshness_in_your_hands-2" data-name="all the freshness, in your hands" class="cls-1" transform="translate(555.14 676.49)"><tspan x="0" y="0">all the freshness, in your hands</tspan></text>
+  </g>
+  <g id="Laundry">
+    <text class="cls-2" transform="translate(325.75 427.09)"><tspan x="0" y="0">Laundry</tspan></text>
+  </g>
+</svg>
