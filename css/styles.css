@@ -11482,7 +11482,7 @@ body {
 
 #footer-links a {
   margin-bottom: 10px; /* Espaçamento entre os links */
-  margin-left: 30px;
+  margin-left: 10px;
   font-size: 14px;
   text-decoration: none; /* Remove o sublinhado */
   color: inherit; /* Herda a cor do texto */
@@ -11500,9 +11500,9 @@ body {
 /* Alinha o texto de direitos autorais à direita */
 #copyright p {
   margin-bottom: 0; /* Remove a margem inferior */
-  margin-right: 20px;
-  margin-top: 19px;
+  margin-right: 10px;
   text-align: right; /* Alinha o texto à direita */
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
