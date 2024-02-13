@@ -11330,6 +11330,15 @@ body {
   margin: 5px; /* Adiciona margem em torno dos links para espaçamento */
 }
 
+@media (max-width: 768px) { /* Ajuste para o breakpoint desejado */
+  #footer-content {
+      display: flex;
+      justify-content: center; /* Centraliza o conteúdo horizontalmente */
+      align-items: center; /* Centraliza o conteúdo verticalmente */
+      flex-direction: row; /* Organiza os links na horizontal (pode ser omitido se preferir, pois é o valor padrão) */
+  }
+}
+
 #footer-content a:hover {
   color: #007bff; /* Opcional: muda a cor do link ao passar o mouse (ajuste conforme necessário) */
 }
