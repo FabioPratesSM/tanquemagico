@@ -11402,15 +11402,19 @@ body {
   width: 100%; /* Ocupa a largura total do footer */
 }
 
-/* Estilos para os itens da lista */
 .footer .list-inline-item {
-  margin: 0 5px; /* Espaçamento horizontal entre os itens */
   padding-left: 0;
   text-align: center; /* Centraliza o conteúdo da lista */
   list-style-type: none; /* Remove os marcadores da lista */
-  margin-left: 0; /* Centraliza a lista horizontalmente */
-  margin-right: 0; /* Centraliza a lista horizontalmente */
+  margin-left: 8px; /* Adiciona espaçamento à esquerda de cada item */
+  margin-right: 8px; /* Adiciona espaçamento à direita de cada item */
 }
+
+/* Remove o espaçamento à direita do último item para evitar espaçamento extra no final */
+.footer .list-inline-item:last-child {
+  margin-right: 0;
+}
+
 
 /* Custom styles for the pricing table */
 .table {
