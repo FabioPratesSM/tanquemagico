@@ -11330,39 +11330,9 @@ body {
   margin: 5px; /* Adiciona margem em torno dos links para espaçamento */
 }
 
-@media (max-width: 768px) { /* Ajuste para o breakpoint desejado */
-  #footer-content {
-      display: flex;
-      flex-direction: column; /* Organiza os links na vertical */
-  }}
-
 #footer-content a:hover {
   color: #007bff; /* Opcional: muda a cor do link ao passar o mouse (ajuste conforme necessário) */
 }
-
-#footer-content2 a {
-  margin-right: 20px; /* Adiciona margem à direita de cada link */
-  padding: 5px; /* Opcional: adiciona preenchimento dentro de cada link */
-  text-decoration: none; /* Opcional: remove o sublinhado dos links */
-  color: inherit; /* Opcional: faz os links herdar a cor de texto do pai */
-  transition: color 0.3s; /* Opcional: transição suave para mudanças de cor */
-  text-align: center;
-  justify-content: center; /* Centraliza o conteúdo flexível horizontalmente */
-  text-align: center; /* Centraliza o conteúdo do texto */
-}
-
-#footer-content2 a {
-  margin: 5px; /* Adiciona margem em torno dos links para espaçamento */
-}
-
-#footer-content2 a:hover {
-  color: #007bff; /* Opcional: muda a cor do link ao passar o mouse (ajuste conforme necessário) */
-}
-
-@media (max-width: 768px) { /* Ajuste para o breakpoint desejado */
-  #footer-content {
-      display: flex;
-  }}
 
 .opening-hours-container {
   display: flex; /* Assegura que o container é um bloco */
