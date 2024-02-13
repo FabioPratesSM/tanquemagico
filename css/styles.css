@@ -11316,7 +11316,7 @@ body {
 }
 
 #footer-content a {
-  margin-right: 10px; /* Adiciona margem à direita de cada link */
+  margin-right: 20px; /* Adiciona margem à direita de cada link */
   padding: 5px; /* Opcional: adiciona preenchimento dentro de cada link */
   text-decoration: none; /* Opcional: remove o sublinhado dos links */
   color: inherit; /* Opcional: faz os links herdar a cor de texto do pai */
@@ -11334,9 +11334,10 @@ body {
 @media (max-width: 768px) { /* Ajuste para o breakpoint desejado */
   #footer-content {
       display: flex;
+      flex-direction: row; /* Mantém os itens em linha */
       justify-content: center; /* Centraliza o conteúdo horizontalmente */
       align-items: center; /* Centraliza o conteúdo verticalmente */
-      flex-direction: row; /* Organiza os links na horizontal (pode ser omitido se preferir, pois é o valor padrão) */
+      flex-wrap: nowrap; /* Evita que os itens sejam envolvidos em múltiplas linhas */
   }
 }
 
