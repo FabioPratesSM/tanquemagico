@@ -11316,7 +11316,7 @@ body {
 }
 
 #footer-content a {
-  margin-right: 20px; /* Adiciona margem à direita de cada link */
+  margin-right: 10px; /* Adiciona margem à direita de cada link */
   padding: 5px; /* Opcional: adiciona preenchimento dentro de cada link */
   text-decoration: none; /* Opcional: remove o sublinhado dos links */
   color: inherit; /* Opcional: faz os links herdar a cor de texto do pai */
@@ -11324,6 +11324,7 @@ body {
   text-align: center;
   justify-content: center; /* Centraliza o conteúdo flexível horizontalmente */
   text-align: center; /* Centraliza o conteúdo do texto */
+  font-size: 14px;
 }
 
 #footer-content a {
