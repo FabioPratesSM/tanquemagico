@@ -11321,9 +11321,10 @@ body {
   text-decoration: none; /* Opcional: remove o sublinhado dos links */
   color: inherit; /* Opcional: faz os links herdar a cor de texto do pai */
   transition: color 0.3s; /* Opcional: transição suave para mudanças de cor */
-  text-align: center;
-  justify-content: center; /* Centraliza o conteúdo flexível horizontalmente */
-  text-align: center; /* Centraliza o conteúdo do texto */
+  flex-direction: column; /* Mantém os itens em linha */
+  justify-content: left; /* Centraliza o conteúdo horizontalmente */
+  align-items: left; /* Centraliza o conteúdo verticalmente */
+  flex-wrap: nowrap; /* Evita que os itens sejam envolvidos em múltiplas linhas */
   font-size: 14px;
 }
 
@@ -11334,10 +11335,9 @@ body {
 @media (max-width: 768px) { /* Ajuste para o breakpoint desejado */
   #footer-content {
       display: flex;
-      flex-direction: row; /* Mantém os itens em linha */
-      justify-content: center; /* Centraliza o conteúdo horizontalmente */
-      align-items: center; /* Centraliza o conteúdo verticalmente */
-      flex-wrap: nowrap; /* Evita que os itens sejam envolvidos em múltiplas linhas */
+      flex-direction: column; /* Mantém os itens em linha */
+      justify-content: left; /* Centraliza o conteúdo horizontalmente */
+      align-items: left; /* Centraliza o conteúdo verticalmente */
   }
 }
 
@@ -11464,4 +11464,59 @@ body {
 
 #languageLinks a.active {
   font-weight: bold;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between; /* Espaça os elementos entre esquerda e direita */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  flex-wrap: wrap; /* Permite a quebra de linha conforme necessário */
+  padding: 10px; /* Espaçamento interno */
+}
+
+#footer-links {
+  display: flex;
+  flex-direction: column; /* Organiza os links verticalmente */
+  align-items: flex-start; /* Alinha os links à esquerda */
+}
+
+#footer-links a {
+  margin-bottom: 10px; /* Espaçamento entre os links */
+  margin-left: 30px;
+  font-size: 14px;
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Herda a cor do texto */
+  transition: color 0.3s; /* Animação suave na mudança de cor */
+}
+
+#footer-links a:last-child {
+  margin-bottom: 0; /* Remove a margem do último link */
+}
+
+#footer-links a:hover {
+  color: #007bff; /* Cor ao passar o mouse, ajustável conforme necessário */
+}
+
+/* Alinha o texto de direitos autorais à direita */
+#copyright p {
+  margin-bottom: 0; /* Remove a margem inferior */
+  margin-right: 20px;
+  margin-top: 19px;
+  text-align: right; /* Alinha o texto à direita */
+}
+
+@media (max-width: 768px) {
+  #footer-links {
+      flex-direction: column; /* Organiza os itens em coluna em telas menores */
+  }
+
+  #footer-links a, #footer-links div {
+      margin-right: 0; /* Remove o espaçamento à direita em telas menores */
+      text-align: center; /* Centraliza os links e o texto de direitos autorais */
+  }
+
+  #footer-links div {
+      order: 1; /* Coloca o texto de direitos autorais acima dos links em telas menores */
+      margin-bottom: 0px; /* Adiciona um espaçamento abaixo do texto de direitos autorais */
+  }
 }
