@@ -11359,6 +11359,11 @@ body {
   color: #007bff; /* Opcional: muda a cor do link ao passar o mouse (ajuste conforme necessário) */
 }
 
+@media (max-width: 768px) { /* Ajuste para o breakpoint desejado */
+  #footer-content {
+      display: flex;
+  }}
+
 .opening-hours-container {
   display: flex; /* Assegura que o container é um bloco */
   flex-direction: column; /* Organiza os filhos do body em uma coluna */
